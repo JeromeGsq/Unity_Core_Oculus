@@ -1,7 +1,7 @@
-﻿using Root.DesignPatterns;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Toastapp.DesignPatterns;
 using UnityEngine;
 
 namespace ToastAppStudio.MVVM
@@ -61,7 +61,7 @@ namespace ToastAppStudio.MVVM
 
         public GameObject ShowViewModel(Type destinationViewModelType)
         {
-           return this.ShowViewModel<object>(destinationViewModelType, null);
+            return this.ShowViewModel<object>(destinationViewModelType, null);
         }
 
         public GameObject ShowViewModel(Type destinationViewModelType, Transform root)
@@ -144,7 +144,7 @@ namespace ToastAppStudio.MVVM
             this.navigationStack.Remove(selectedInstance);
 
             var components = this.navigationStack.LastOrDefault()?.GameObject?.GetComponents(typeof(Component));
-            if(components != null)
+            if (components != null)
             {
                 foreach (var component in components)
                 {

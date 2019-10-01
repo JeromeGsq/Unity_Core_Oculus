@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.toastapp.toolbox": "https://github.com/JeromeGsq/unity_toastapp_toolbox.git",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ext.nunit": "1.0.0",
     "com.unity.ide.rider": "1.1.0",
@@ -41,5 +42,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.toastapp.toolbox": {
+      "hash": "7089867a30d185f91df9b017d7902a53ffe6b8ac",
+      "revision": "HEAD"
+    }
   }
 }
